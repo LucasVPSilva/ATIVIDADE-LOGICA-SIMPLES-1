@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Lógica Simples - Página 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <header>
+      <a href="exercicio1.html">Exercício 1</a>
+      <a href="exercicio2.html">Exercício 2</a>
+      <a href="exercicio3.html">Exercício 3</a>
+      <a href="exercicio4.html">Exercício 4</a>
+      <a href="exercicio5.html">Exercício 5</a>
+      <a href="exercicio6.html">Exercício 6</a>
+      <a href="exercicio7.html">Exercício 7</a>
+      <a href="exercicio8.html">Exercício 8</a>
+      <a href="exercicio9.html">Exercício 9</a>
+      <a href="exercicio10.html">Exercício 10</a>
+    </header>
+    <main>
+      <h1>Exercício 5</h1>
+      <hr />
+      <br />
+      <p>
+        <strong>
+          5. Escreva um algoritmo para ler uma temperatura em graus Celsius,
+          calcular e escrever o valor correspondente em graus Fahrenheit.
+        </strong>
+      </p>
+      <br />
+      <hr />
+      <div>
+        <br />
+        <h3>Resolução da Atividade</h3>
+        <br />
+        <script>
+          const tempCelsius = 26;
+          const tempFahren = tempCelsius * 1.8 + 32;
+          const tempFahrenFixed = tempFahren.toFixed(2);
+          document.write(
+            `Hoje está fazendo ${tempCelsius} graus Celsius, o que equivale a ${tempFahrenFixed} graus Fahrenheit. `
+          );
+        </script>
+      </div>
+    </main>
+  </body>
+</html>

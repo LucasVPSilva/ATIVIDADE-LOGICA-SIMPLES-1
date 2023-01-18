@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Lógica Simples - Página 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <header>
+      <a href="exercicio1.html">Exercício 1</a>
+      <a href="exercicio2.html">Exercício 2</a>
+      <a href="exercicio3.html">Exercício 3</a>
+      <a href="exercicio4.html">Exercício 4</a>
+      <a href="exercicio5.html">Exercício 5</a>
+      <a href="exercicio6.html">Exercício 6</a>
+      <a href="exercicio7.html">Exercício 7</a>
+      <a href="exercicio8.html">Exercício 8</a>
+      <a href="exercicio9.html">Exercício 9</a>
+      <a href="exercicio10.html">Exercício 10</a>
+    </header>
+    <main>
+      <h1>Exercício 3</h1>
+      <hr />
+      <br />
+      <p>
+        <strong>
+          3. O custo de um carro novo ao consumidor é a soma do custo de fábrica
+          com a porcentagem do distribuidor e dos impostos (aplicados ao custo
+          de fábrica). Supondo que o percentual do distribuidor seja de 28% e os
+          impostos de 45%, escrever um algoritmo para ler o custo de fábrica de
+          um carro,calcular e escrever o custo final ao consumidor.
+        </strong>
+      </p>
+      <br />
+      <hr />
+      <div>
+        <br />
+        <h3>Resolução da Atividade</h3>
+        <br />
+        <script>
+          let custoFabrica = 45000;
+          let porcDist = custoFabrica * 0.28;
+          let porcImp = custoFabrica * 0.45;
+          let custoFinal = custoFabrica + porcDist + porcImp;
+          document.write(
+            `O custo final do carro de um GrowDev é de R$ ${custoFinal}`
+          );
+        </script>
+      </div>
+    </main>
+  </body>
+</html>

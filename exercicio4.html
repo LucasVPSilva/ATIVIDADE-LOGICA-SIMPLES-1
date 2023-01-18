@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Lógica Simples - Página 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <header>
+      <a href="exercicio1.html">Exercício 1</a>
+      <a href="exercicio2.html">Exercício 2</a>
+      <a href="exercicio3.html">Exercício 3</a>
+      <a href="exercicio4.html">Exercício 4</a>
+      <a href="exercicio5.html">Exercício 5</a>
+      <a href="exercicio6.html">Exercício 6</a>
+      <a href="exercicio7.html">Exercício 7</a>
+      <a href="exercicio8.html">Exercício 8</a>
+      <a href="exercicio9.html">Exercício 9</a>
+      <a href="exercicio10.html">Exercício 10</a>
+    </header>
+    <main>
+      <h1>Exercício 4</h1>
+      <hr />
+      <br />
+      <p>
+        <strong>
+          4. Uma revendedora de carros usados paga a seus funcionários
+          vendedores um salário fixo por mês, mais uma comissão também fixa para
+          cada carro vendido e mais 5% do valor das vendas por ele efetuadas.
+          Escrever um algoritmo que leia o número de carros por ele vendidos, o
+          valor total de suas vendas, o salário fixo e o valor que ele recebe
+          por carro vendido. Calcule e escreva o salário final do vendedor.
+        </strong>
+      </p>
+      <br />
+      <hr />
+      <div>
+        <br />
+        <h3>Resolução da Atividade</h3>
+        <br />
+        <script>
+          let salarioFixo = 2000;
+          let carroVendido = 10;
+          let comissaoFixa = carroVendido * 200;
+          let valorTotal = 150000;
+          let comissao5 = valorTotal * 0.05;
+
+          let salarioTotal = salarioFixo + comissaoFixa + comissao5;
+          document.write(
+            `Charles vendeu ${carroVendido} carros neste mês, com um valor total de R$ ${valorTotal} 
+            portanto, seu salário será de R$ ${salarioTotal}`
+          );
+        </script>
+      </div>
+    </main>
+  </body>
+</html>
